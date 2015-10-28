@@ -16,6 +16,8 @@ using namespace std;
 // forgot to insert this useless comment	**
 //********************************************
 
+// Have another useless comment
+
 int multCalc(int a, int b)
 {
 	return a*b;
