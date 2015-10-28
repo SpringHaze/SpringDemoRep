@@ -1,3 +1,5 @@
+/* Copyright (c) LJohnston Enterprises 2015 */
+
 #include <iostream>
 #include <iomanip>
 #include <fstream>
