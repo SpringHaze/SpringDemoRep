@@ -1,3 +1,5 @@
+/* Copyright (c) LJohnston Enterprises 2015 */
+
 #include <iostream>
 #include <iomanip>
 #include <fstream>
@@ -197,6 +199,14 @@ void printlist(string namelist[], int listLength)
 	}
 }
 
+
+// Calculator function
+int runCalc(int num1, int num2)
+{
+	return num1 + num2;
+}
+
+
 //****************************************************
 //The main function utilizes all the other functions *
 //and allows the user to loop however many times they*
@@ -205,6 +215,8 @@ void printlist(string namelist[], int listLength)
 
 int main()
 {
+	runCalc(2, 2);
+
 	ifstream lister;                    //Variable Declarations for the main function: 
 	string filename;                    //Lister(name file), filename(filename), namelist(taken from name file), columnNumber(tracker for array), fixed(for the do while loop for lister file name input), trash(just for throwing away unwanted content)
 	string namelist[5000];
