@@ -16,6 +16,11 @@ using namespace std;
 // forgot to insert this useless comment	**
 //********************************************
 
+int multCalc(int a, int b)
+{
+	return a*b;
+}
+
 int readfile(ifstream& lister, string namelist[], int& columnNumber)
 {
 	string trash;
