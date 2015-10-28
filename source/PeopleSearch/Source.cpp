@@ -10,6 +10,10 @@ using namespace std;
 //name file into the array namelist for later use *
 //*************************************************
 
+//********************************************
+// forgot to insert this useless comment	**
+//********************************************
+
 int readfile(ifstream& lister, string namelist[], int& columnNumber)
 {
 	string trash;
