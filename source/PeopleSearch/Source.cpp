@@ -21,6 +21,11 @@ int multCalc(int a, int b)
 	return a*b;
 }
 
+float divCalc(int a, int b)
+{
+	return a / b;
+}
+
 int readfile(ifstream& lister, string namelist[], int& columnNumber)
 {
 	string trash;
